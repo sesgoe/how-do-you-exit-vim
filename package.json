@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
-  "version": "4.0.0",
-  "author": "Taylor Bryant <taylor@bryant.io>",
+  "name": "how-do-i-exit-vim-joke",
+  "description": "Joke webpage for showing someone how to exit vim",
+  "version": "1.0.0",
+  "author": "Ses Goe <ses.goe@hey.com>",
   "dependencies": {
     "gatsby": "2.23.11",
     "gatsby-plugin-manifest": "2.4.14",
@@ -10,6 +10,7 @@
     "gatsby-plugin-postcss": "2.3.6",
     "gatsby-plugin-react-helmet": "3.3.6",
     "gatsby-plugin-sharp": "2.6.14",
+    "gatsby-plugin-twitter": "^2.3.6",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",

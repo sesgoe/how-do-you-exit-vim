@@ -1,42 +1,29 @@
+import { Link } from "gatsby";
 import React from "react";
-
-import Layout from "../components/layout";
 import SEO from "../components/seo";
-import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
+import exitvim from "../images/exitvim.jpg";
+
 
 function IndexPage() {
   return (
-    <Layout>
+    <div className="flex flex-col min-h-screen">
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="Home"
+        keywords={[`how do you exit vim`, `how exit vim`, `exit vim`, `vim`, `quit vim`, `how do you quit vim`]}
+        title="Main"
       />
 
-      <section className="text-center">
+      <main className="text-center mt-8">
         <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
+          alt="A funny doctored image from the movie 'Arrival' showing how to exit vim"
+          className="block w-11/12 md:w-4/5 lg:w-2/5 mx-auto mb-8"
+          src={exitvim}
         />
-
-        <h2 className="inline-block p-3 mb-4 text-2xl font-bold bg-yellow-400">
-          Hey there! Welcome to your first Gatsby site.
-        </h2>
-
-        <p className="leading-loose">
-          This is a barebones starter for Gatsby styled using{` `}
-          <a
-            className="font-bold text-gray-900 no-underline"
-            href="https://tailwindcss.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Tailwind CSS
-          </a>
-          , a utility-first CSS framework.
-        </p>
-      </section>
-    </Layout>
+        <h1 className="text-lg sm:text-2xl"><a className="text-blue-300 hover:underline" href="https://stackoverflow.com/a/11828573/10578398">How to exit vim guide on StackOverflow</a></h1>
+      </main>
+      <footer className="mx-auto mt-auto flex mb-8">
+          <h2 className="text-md sm:text-lg text-blue-300 hover:underline"><Link to="/about">About</Link></h2>
+      </footer>
+    </div>
   );
 }
 

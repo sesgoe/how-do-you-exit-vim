@@ -23,6 +23,9 @@ function SEO({ description, lang, meta, keywords, title }) {
       htmlAttributes={{
         lang,
       }}
+      bodyAttributes={{
+        class: "bg-gray-900"
+      }}
       meta={[
         {
           name: `description`,

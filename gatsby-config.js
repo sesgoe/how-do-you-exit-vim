@@ -1,13 +1,10 @@
-const resolveConfig = require("tailwindcss/resolveConfig");
 const tailwindConfig = require("./tailwind.config.js");
-
-const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    title: `How do you exit vim?`,
+    description: `A silly site that shows you how to exit vim`,
+    author: `@sesgoe`,
   },
   plugins: [
     `gatsby-plugin-eslint`,
@@ -15,13 +12,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
-        short_name: `starter`,
+        name: `How do I exit vim?`,
+        short_name: `How do I exit vim?`,
         start_url: `/`,
-        background_color: fullConfig.theme.colors.white,
-        theme_color: fullConfig.theme.colors.teal["400"],
         display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`,
+        icon: `src/images/vim_icon.png`,
       },
     },
     {
@@ -37,5 +32,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    `gatsby-plugin-twitter`
   ],
 };

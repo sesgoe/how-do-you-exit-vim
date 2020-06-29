@@ -1,24 +1,19 @@
 import React from "react";
-
-import Layout from "../components/layout";
+import {Link} from 'gatsby';
 import SEO from "../components/seo";
-import abductionIllustration from "../images/abduction-illustration.svg";
 
 function NotFoundPage() {
   return (
-    <Layout>
-      <SEO title="404: Not found" />
-      <div>
-        <img
-          alt="Ghost getting abducted by aliens"
-          className="block mx-auto w-1/2"
-          src={abductionIllustration}
-        />
-        <h2 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
-          Looks like this page is a ghost that got abducted by aliens...
-        </h2>
-      </div>
-    </Layout>
+    <div className="min-h-screen flex flex-col justify-center">
+      <SEO
+        keywords={[`404`, `vim`, `how to exit vim 404`, `404 vim`, `vim 404`]}
+        title="404 Not Found"
+      />
+
+      <h1 className="text-gray-200 text-2xl text-center">404 Not Found</h1>
+      <h2 className="text-blue-300 text-2xl text-center hover:underline"><Link to="/">Main Page</Link></h2>
+
+    </div>
   );
 }
 
