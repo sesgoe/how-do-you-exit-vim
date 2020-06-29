@@ -23,9 +23,9 @@ function AboutPage() {
         </section>
         <section className="mt-4">
           <h2 className="text-sm text-gray-500 text-left sm:text-center">This site was built with <a className="text-blue-300 hover:underline" href="https://www.gatsbyjs.org/">Gatsby</a>, <a className="text-blue-300 hover:underline" href="https://tailwindcss.com/">TailwindCSS</a>, and is deployed on <a className="text-blue-300 hover:underline" href="https://www.netlify.com/">Netlify</a> with <a className="text-blue-300 hover:underline" href="https://www.cloudflare.com/">Cloudflare</a> acting as a cache.</h2>
-          <h2 className="text-sm text-gray-500 text-left sm:text-center">You can find the source at <a className="text-blue-300 hover:underline" href="https://github.com/sesgoe/how-do-you-exit-vim">github.com/sesgoe/how-do-you-exit-vim</a></h2>
+          <h2 className="text-sm text-gray-500 text-left sm:text-center mt-2">You can find the source code at <a className="text-blue-300 hover:underline" href="https://github.com/sesgoe/how-do-you-exit-vim">github.com/sesgoe/how-do-you-exit-vim</a></h2>
         </section>
-        <footer className="mt-4">
+        <footer className="mt-8">
           <h3 className="text-lg text-blue-300 hover:underline text-center"><Link to="/">Main Page</Link></h3>
         </footer>
       </main>

@@ -20,7 +20,7 @@ function IndexPage() {
         />
         <h1 className="text-lg sm:text-2xl"><a className="text-blue-300 hover:underline" href="https://stackoverflow.com/a/11828573/10578398">How to exit vim guide on StackOverflow</a></h1>
       </main>
-      <footer className="mx-auto mt-auto flex mb-8">
+      <footer className="mx-auto flex mt-16">
           <h2 className="text-md sm:text-lg text-blue-300 hover:underline"><Link to="/about">About</Link></h2>
       </footer>
     </div>
