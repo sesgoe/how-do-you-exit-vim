@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Ses Goe <ses.goe@hey.com>",
   "dependencies": {
-    "gatsby": "2.23.11",
+    "gatsby": "4.25.7",
     "gatsby-plugin-manifest": "2.4.14",
     "gatsby-plugin-netlify": "^2.3.7",
     "gatsby-plugin-offline": "3.2.13",
